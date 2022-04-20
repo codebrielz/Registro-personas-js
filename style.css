@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+.content-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-todo > ul {
+    background-color: aliceblue;
+    padding: 2em;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.content-todo > ul > li {
+    list-style: decimal;
+    font-weight: 600;
+    padding: 10px 0;
+}
